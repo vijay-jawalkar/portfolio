@@ -1,4 +1,4 @@
-import { Home, NavBar, SocialLinks } from "./components";
+import { Home, NavBar, SocialLinks, About, Portfolio } from "./components";
 import "./index.css";
 
 function App() {
@@ -8,6 +8,9 @@ function App() {
       <Home/>
 
       <SocialLinks/>
+      <About/>
+
+      <Portfolio/>
     </div>
   );
 }

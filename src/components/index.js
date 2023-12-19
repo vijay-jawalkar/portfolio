@@ -1,3 +1,5 @@
 export {NavBar} from "./NavBar"
 export {Home} from "./Home"
 export {SocialLinks} from "./SocialLinks"
+export {About} from "./About"
+export {Portfolio} from "./Portfolio"
