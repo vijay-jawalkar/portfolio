@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/photo.jpg";
 
 import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { Link } from "react-scroll";
 
 export function Home() {
   return (
@@ -20,13 +21,13 @@ export function Home() {
           </p>
 
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md cursor-pointer">
+            <Link to = "portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300"> 
                 <IoIosArrowDroprightCircle size={22}/>
                 </span>
              
-            </button>
+            </Link>
           </div>
         </div>
         <div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
+import { Link } from 'react-scroll'
 
 export function NavBar() {
 const [nav, setNav] = useState(false)
@@ -8,23 +9,23 @@ const [nav, setNav] = useState(false)
     let links = [
   {
     id:1,
-    link: "Home"
+    link: "home"
   },
   {
     id:2,
-    link: "About"
+    link: "about"
   },
   {
     id:3,
-    link: "Portfolio"
+    link: "portfolio"
   },
   {
     id:4,
-    link: "Experience"
+    link: "skills"
   },
   {
     id:5,
-    link: "Contact"
+    link: "contact"
   }
     ]
 
@@ -37,9 +38,14 @@ const [nav, setNav] = useState(false)
 
    <ul className='hidden md:flex'>
     {
-        links.map((val, index) => {
+        links.map(({id, link}) => {
             return (
-                <li key = {index} className='px-4 font-medium cursor-pointer text-gray-500  hover:scale-105 duration-200 '>{val.link}</li>
+                <li key = {id} className='px-4 font-medium cursor-pointer text-gray-500  hover:scale-105 duration-200 '>
+                 
+                  <Link to={link} smooth duration={500}>
+                  {link}
+                  </Link>
+                  </li>
             )
         })
     }
@@ -58,9 +64,14 @@ const [nav, setNav] = useState(false)
     nav && (
         <ul className='flex flex-col justify-center items-center absolute left-0 top-0 w-full h-screen bg-gradient-to-b from-black to-gray-600'>
         {
-             links.map((val, index) => {
+             links.map(({id, link}) => {
                  return (
-                     <li key = {index} className='py-4 cursor-pointer text-4xl text-gray-500  '>{val.link}</li>
+                     <li onClick={() => setNav(!nav)} key = {id} className='py-4 cursor-pointer text-4xl text-gray-500  '>
+                     
+                      <Link to = {link} smooth duration={500}> 
+                      {link}
+                      </Link>
+                      </li>
                  )
              })
          }
