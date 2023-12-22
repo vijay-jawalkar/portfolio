@@ -3,12 +3,12 @@ import "./index.css";
 
 function App() {
   return (
-    <div>
+    <div >
       <NavBar />
       <Home/>
 
       <SocialLinks/>
-      <About/>
+      {/* <About/> */}
 
       <Portfolio/>
       <Skill/>
