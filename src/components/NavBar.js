@@ -66,9 +66,9 @@ const [nav, setNav] = useState(false)
         {
              links.map(({id, link}) => {
                  return (
-                     <li onClick={() => setNav(!nav)} key = {id} className='py-4 cursor-pointer text-4xl text-gray-500  '>
+                     <li key = {id} className='py-4 cursor-pointer text-4xl text-gray-500  '>
                      
-                      <Link to = {link} smooth duration={500}> 
+                      <Link  onClick={() => setNav(!nav)} to = {link} smooth duration={500}> 
                       {link}
                       </Link>
                       </li>
