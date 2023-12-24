@@ -15,29 +15,16 @@ export function About() {
         </div>
 
         <p className="text-xl mt-20">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+         
+
+
+I love making cool things online! I'm really into front-end development and know a bunch of technologies like ReactJS, Redux, JavaScript, Tailwind CSS, HTML, CSS, and Firebase. One of my proudest projects is 'ShopNow,' where I created an online shop from scratch. While I focus mostly on the front-end, I'm also exploring back-end stuff like Node.js, Express.js, and MongoDB to become a full-stack developer.
         </p>
 
         <br />
 
         <p className="text-xl">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+        I'm good at learning new things fast and solving problems. I enjoy figuring out issues by myself using online resources. My big goal is to be great at both front and back-end development. I want to keep improving and make awesome digital solutions that blend both sides of creating websites!
         </p>
       </div>
     </div>
