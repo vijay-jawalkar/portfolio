@@ -10,7 +10,7 @@ export function Home() {
 
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center gap-4 h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Front End Developer</h2>
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Software Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
           I excel in front-end development and am presently employed as a software developer intern at LeopardRuns Innovation and Technology. My expertise lies in various front-end technologies like ReactJS, Redux, JavaScript, and Tailwind CSS. I'm known for my quick learning abilities in mastering new skills.
           </p>

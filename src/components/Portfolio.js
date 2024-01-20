@@ -4,6 +4,7 @@ import ShopNow from "../assets/portfolio/shopnow.png"
 import MovieTime from "../assets/portfolio/movietime.png"
 import TaskManager from "../assets/portfolio/taskmanager.png"
 import Weather from "../assets/portfolio/weather.png"
+import Pinterest from "../assets/portfolio/pinterest.png"
 
 export function Portfolio() {
     const links = [
@@ -15,18 +16,24 @@ export function Portfolio() {
    },
    {
     id: 2,
+    src: Pinterest,
+    demo: "#",
+    code: "https://github.com/vijay-jawalkar/pinterest-clone"
+   },
+   {
+    id: 3,
     src: MovieTime,
     demo: "https://movietime-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/movie-time-using-reactjs"
    },
    {
-    id: 3,
+    id: 4,
     src: TaskManager,
     demo: "https://task-manager-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/aulacube-task-manager"
    },
    {
-    id: 4,
+    id: 5,
     src: Weather,
     demo: "https://weatherinfoget.netlify.app/",
     code: "https://github.com/vijay-jawalkar/weather-app"
