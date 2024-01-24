@@ -40,7 +40,7 @@ export function SocialLinks() {
       Resume <BsFillPersonLinesFill size={27}/>
       </>
     ),
-    href: "/Vijay_Frontend_Developer.pdf",
+    href: "/Vijay_Web_Developer.pdf",
     style: "rounded-br-md",
     download:true
    },
