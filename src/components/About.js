@@ -18,7 +18,7 @@ export function About() {
          
 
 
-I love making cool things online! I'm really into front-end development and know a bunch of technologies like ReactJS, Redux, JavaScript, Tailwind CSS, HTML, CSS, and Firebase. One of my proudest projects is 'ShopNow,' where I created an online shop from scratch. While I focus mostly on the front-end, I'm also exploring back-end stuff like Node.js, Express.js, and MongoDB to become a full-stack developer.
+I love making cool things online! I'm really into front-end development and know a bunch of technologies like ReactJS, Redux, JavaScript, Tailwind CSS, HTML and CSS. One of my proudest projects is 'ShopNow,' where I created an online shop from scratch. While I focus mostly on the front-end, I'm also exploring back-end stuff like Node.js, Express.js, and MongoDB to become a full-stack developer.
         </p>
 
         <br />
