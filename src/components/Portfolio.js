@@ -5,35 +5,49 @@ import MovieTime from "../assets/portfolio/movietime.png"
 import TaskManager from "../assets/portfolio/taskmanager.png"
 import Weather from "../assets/portfolio/weather.png"
 import Pinterest from "../assets/portfolio/pinterest.png"
+import ChatNinja from "../assets/portfolio/chatninja.png"
 
 export function Portfolio() {
     const links = [
    {
     id: 1,
+    title: "ShopNow | E-Commerce",
     src: ShopNow,
     demo: "https://shopnow-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/shopnow-updated-version"
    },
    {
     id: 2,
-    src: Pinterest,
-    demo: "#",
-    code: "https://github.com/vijay-jawalkar/pinterest-clone"
+    title: "ChatNinja | AI Plateform",
+    src: ChatNinja,
+    demo: "https://chatninja1.netlify.app/",
+    code: "https://github.com/vijay-jawalkar/chat-ninja"
    },
    {
     id: 3,
-    src: MovieTime,
-    demo: "https://movietime-vijay.netlify.app/",
-    code: "https://github.com/vijay-jawalkar/movie-time-using-reactjs"
-   },
-   {
-    id: 4,
+    title: "Task Manager",
     src: TaskManager,
     demo: "https://task-manager-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/aulacube-task-manager"
    },
    {
+    id: 4,
+    title: "Pinterest Clone",
+    src: Pinterest,
+    demo: "#",
+    code: "https://github.com/vijay-jawalkar/pinterest-clone"
+   },
+   {
     id: 5,
+    title: "Movietime",
+    src: MovieTime,
+    demo: "https://movietime-vijay.netlify.app/",
+    code: "https://github.com/vijay-jawalkar/movie-time-using-reactjs"
+   },
+ 
+   {
+    id: 6,
+    title: "Weather Plateform",
     src: Weather,
     demo: "https://weatherinfoget.netlify.app/",
     code: "https://github.com/vijay-jawalkar/weather-app"
@@ -56,7 +70,8 @@ export function Portfolio() {
             {
                 links.map((link, index) => {
                     return (
-                        <div className='shadow-md shadow-gray-600 rounded-lg'>
+                        <div key={index} className='shadow-md shadow-gray-600 rounded-lg'>
+                            <div className='text-sm font-semibold text-center py-2 text-zinc-400'> {link.title} </div>
                         <img src = {link.src} alt="" className='rounded-md hover:scale-105 duration-300'/>
     
                         <div className='flex justify-center items-center'>
