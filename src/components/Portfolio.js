@@ -4,8 +4,9 @@ import ShopNow from "../assets/portfolio/shopnow.png"
 import MovieTime from "../assets/portfolio/movietime.png"
 import TaskManager from "../assets/portfolio/taskmanager.png"
 import Weather from "../assets/portfolio/weather.png"
-import Pinterest from "../assets/portfolio/pinterest.png"
+// import Pinterest from "../assets/portfolio/pinterest.png"
 import ChatNinja from "../assets/portfolio/chatninja.png"
+import Dashboard from "../assets/portfolio/dashboard.png"
 
 export function Portfolio() {
     const links = [
@@ -32,13 +33,20 @@ export function Portfolio() {
    },
    {
     id: 4,
-    title: "Pinterest Clone",
-    src: Pinterest,
-    demo: "#",
-    code: "https://github.com/vijay-jawalkar/pinterest-clone"
+    title: "Dashboard",
+    src: Dashboard,
+    demo: "https://master--bi-test-task-react.netlify.app/",
+    code: "https://github.com/vijay-jawalkar/Bl-Test-Task-React"
    },
+//    {
+//     id: 5,
+//     title: "Pinterest Clone",
+//     src: Pinterest,
+//     demo: "#",
+//     code: "https://github.com/vijay-jawalkar/pinterest-clone"
+//    },
    {
-    id: 5,
+    id: 6,
     title: "Movietime",
     src: MovieTime,
     demo: "https://movietime-vijay.netlify.app/",
@@ -46,7 +54,7 @@ export function Portfolio() {
    },
  
    {
-    id: 6,
+    id: 7,
     title: "Weather Plateform",
     src: Weather,
     demo: "https://weatherinfoget.netlify.app/",

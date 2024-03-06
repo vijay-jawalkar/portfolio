@@ -4,7 +4,7 @@ import cssImage from "../assets/css.png"
 import javascriptImage from "../assets/javascript.png"
 import reactImage from "../assets/react.png"
 import tailwindImage from "../assets/tailwind.png"
-// import nodeImage from "../assets/node.png"
+import nodeImage from "../assets/node.png"
 import githubImage from "../assets/github.png";
 // import expressImage from "../assets/expressjs.png"
 // import mongodbImage from "../assets/mongoDB.png"
@@ -43,12 +43,12 @@ export function Skill() {
             name:"Tailwind CSS",
             style: "shadow-sky-500"
         },
-        // {
-        //     id: 6,
-        //     logo: nodeImage,
-        //     name:"NodeJs",
-        //     style: "shadow-green-500"
-        // },
+        {
+            id: 6,
+            logo: nodeImage,
+            name:"NodeJs",
+            style: "shadow-green-500"
+        },
         // {
         //     id: 7,
         //     logo: expressImage,
