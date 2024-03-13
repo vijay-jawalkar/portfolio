@@ -6,7 +6,7 @@ import reactImage from "../assets/react.png"
 import tailwindImage from "../assets/tailwind.png"
 import nodeImage from "../assets/node.png"
 import githubImage from "../assets/github.png";
-// import expressImage from "../assets/expressjs.png"
+import expressImage from "../assets/expressjs.png"
 // import mongodbImage from "../assets/mongoDB.png"
 
 export function Skill() {
@@ -49,12 +49,12 @@ export function Skill() {
             name:"NodeJs",
             style: "shadow-green-500"
         },
-        // {
-        //     id: 7,
-        //     logo: expressImage,
-        //     name:"Express",
-        //     style: "shadow-gray-500"
-        // },
+        {
+            id: 7,
+            logo: expressImage,
+            name:"Express",
+            style: "shadow-gray-500"
+        },
         // {
         //     id: 8,
         //     logo: mongodbImage,

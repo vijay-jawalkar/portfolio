@@ -1,10 +1,10 @@
 import React from 'react'
 
 import ShopNow from "../assets/portfolio/shopnow.png"
-import MovieTime from "../assets/portfolio/movietime.png"
+// import MovieTime from "../assets/portfolio/movietime.png"
 import TaskManager from "../assets/portfolio/taskmanager.png"
 import Weather from "../assets/portfolio/weather.png"
-// import Pinterest from "../assets/portfolio/pinterest.png"
+import PicVista from "../assets/portfolio/picvista.png"
 import ChatNinja from "../assets/portfolio/chatninja.png"
 import Dashboard from "../assets/portfolio/dashboard.png"
 
@@ -14,6 +14,7 @@ export function Portfolio() {
     id: 1,
     title: "ShopNow | E-Commerce",
     src: ShopNow,
+    skills: "ReactJs, Redux, Tailwind, Node, Express",
     demo: "https://shopnow-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/shopnow-updated-version"
    },
@@ -21,6 +22,7 @@ export function Portfolio() {
     id: 2,
     title: "ChatNinja | AI Plateform",
     src: ChatNinja,
+    skills: "ReactJs, Node, Express, MongoDB",
     demo: "https://chatninja1.netlify.app/",
     code: "https://github.com/vijay-jawalkar/chat-ninja"
    },
@@ -28,6 +30,7 @@ export function Portfolio() {
     id: 3,
     title: "Task Manager",
     src: TaskManager,
+    skills: "ReactJs, Tailwind ",
     demo: "https://task-manager-vijay.netlify.app/",
     code: "https://github.com/vijay-jawalkar/aulacube-task-manager"
    },
@@ -35,28 +38,31 @@ export function Portfolio() {
     id: 4,
     title: "Dashboard",
     src: Dashboard,
+    skills: "ReactJs, Tailwind",
     demo: "https://master--bi-test-task-react.netlify.app/",
     code: "https://github.com/vijay-jawalkar/Bl-Test-Task-React"
    },
-//    {
-//     id: 5,
-//     title: "Pinterest Clone",
-//     src: Pinterest,
-//     demo: "#",
-//     code: "https://github.com/vijay-jawalkar/pinterest-clone"
-//    },
    {
-    id: 6,
-    title: "Movietime",
-    src: MovieTime,
-    demo: "https://movietime-vijay.netlify.app/",
-    code: "https://github.com/vijay-jawalkar/movie-time-using-reactjs"
+    id: 5,
+    title: "PicVista",
+    src: PicVista,
+    skills: "ReactJs, Node, Express, MongoDB",
+    demo: "#",
+    code: "https://github.com/vijay-jawalkar/picvista"
    },
+//    {
+//     id: 6,
+//     title: "Movietime",
+//     src: MovieTime,
+//     demo: "#",
+//     code: "https://github.com/vijay-jawalkar/movie-time-using-reactjs"
+//    },
  
    {
     id: 7,
     title: "Weather Plateform",
     src: Weather,
+    skills: "ReactJs, Tailwind, Weather API",
     demo: "https://weatherinfoget.netlify.app/",
     code: "https://github.com/vijay-jawalkar/weather-app"
    }
@@ -92,6 +98,8 @@ export function Portfolio() {
                             Code
                                 </a>  </button>
                     </div>
+                    <hr className='text-zinc-300'/>
+                    <div className='py-2 px-3 text-sm text-center text-zinc-200'> {link.skills} </div>
                     </div>
                     )
                 })
