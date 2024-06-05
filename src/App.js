@@ -1,15 +1,16 @@
-import { Home, NavBar, SocialLinks, Portfolio, About, Skill, Contact } from "./components";
+import { Home, NavBar, SocialLinks, Portfolio, About, Skill, Contact, Experience } from "./components";
 import "./index.css";
+
 
 function App() {
   return (
-    <div >
+    <div className="bg-slate-950">
       <NavBar />
       <Home/>
 
       <SocialLinks  />
       <About/>
-
+      <Experience/>
       <Portfolio/>
       <Skill/>
       <Contact/>
