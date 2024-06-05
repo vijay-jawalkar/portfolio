@@ -23,7 +23,7 @@ export function Experience() {
                         <span class="hidden lg:block bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Currently Working</span>
                     </h3>
                     <p className="text-sm text-zinc-200 mb-2">MERN STACK DEVELOPER INTERN</p>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Apr 2023 – Present</time>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Apr 2024 – Present</time>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Collaborated with a team on daily website development tasks for a digital marketing product, participating in daily meetings to align on approaches and project goals. Utilized problem-solving skills to address unique challenges as they arose. Engaged in backend development using technologies such as Node.js, Express.js, and MongoDB.</p>
                 </li>
                 <li className="mb-10 ml-6">

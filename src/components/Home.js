@@ -38,12 +38,12 @@ export function Home() {
           <p className="pb-6" > <span className="move  text-2xl">👋</span> <span className="text-zinc-100 text-2xl font-semibold pb-6"> Hey </span></p>
           <h2 className="text-4xl sm:text-6xl font-extrabold text-white">I'm Vijay Jawalkar</h2>
           
-          <p className="text-2xl py-6 font-semibold flex gap-2">
-      <p className="text-zinc-100"> I am into </p>
-      <p className={`animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-2xl text-green-300 font-bold ${currentSentenceIndex === 1 ? 'hidden' : ''}`}>
+          <p className="py-6 font-semibold flex flex-row gap-2">
+      <p className="text-zinc-100 text-xl  md:text-2xl "> I am into </p>
+      <p className={`animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-lg md:text-2xl text-green-300 font-bold ${currentSentenceIndex === 1 ? 'hidden' : ''}`}>
         {sentences[0]}
       </p>
-      <p className={`animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-2xl text-green-300  font-bold ${currentSentenceIndex === 0 ? 'hidden' : ''}`}>
+      <p className={`animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-lg md:text-2xl text-green-300  font-bold ${currentSentenceIndex === 0 ? 'hidden' : ''}`}>
         {sentences[1]}
       </p>
     </p>
